@@ -6,7 +6,7 @@ pipeline{
         }
 
     stages{
-        stage('deneme'){
+        stage('tests'){
 
             steps{
                 sh 'mvn clean test'
